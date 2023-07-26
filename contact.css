@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    
+  }
+  
+  .content-contact {
+    text-align: inherit;
+  }
+  
+  .content-contact-top {
+    font-family: var(--font3);
+    margin-bottom: 10px;
+  }
+  
+  .contact-form {
+    margin-bottom: 10px;
+  }
+  .contact-form input{
+    width: 34vw;
+    height: 20px; /* Increase the height as desired */
+  }
+  .contact-form textarea{
+    height: 150px;
+    width: 34vw;
+  }
+  

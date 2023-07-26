@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    font-family: var(--font2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.nav-left {
+    font-size: 35px;
+    display: flex;
+    margin: 0 10px;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+
+}
+
+.nav-left ul li a:hover {
+    color: aqua;
+    transition: all 0.4s ease-in-out;
+    border-radius: 10px;
+}
+
+
+
+.content {
+    height: 300px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-image: url(../img/background1.svg);
+    position: relative;
+}
+
+.content-left {
+    font-family: var(--font4);
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+
+}
+
+.content-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-right img {
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+
+.home-article {
+    height: auto;
+    background-color: rgb(224, 243, 150);
+}
+.home-blog{
+    padding: 10px 50px;
+    display: flex;
+}
+
+.home-blog img{
+    border-radius: 30px;
+    width: 300px;
+}
+
+.home-blog-content{
+    align-self: center;
+    padding: 10px 25px;
+}
+
+.home-blog-content:hover{
+    background-color: antiquewhite;
+    border-radius: 50px;
+    transition: all 0.4s ease-in-out;
+}
+
+.home-blog-content span{
+    display: inherit;
+}
+.home-blog-content a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.home-blog-content a :hover{
+    font-size: 1.2em;
+    transition: all 0.4s ease-in-out;
+}
+.footer {
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: var(--main-bg-color);
+    color: white;
+    flex-direction: column;
+}
+
+
+.footer a {
+    color: var(--main-bg-color);
+}

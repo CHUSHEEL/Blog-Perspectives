@@ -1,0 +1,10 @@
+.content-blog {
+    height: 500px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-image: url(../img/background1.svg);
+    position: relative;
+}
