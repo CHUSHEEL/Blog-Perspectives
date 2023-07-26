@@ -1,0 +1,11 @@
+README for "Bold Perspective" Website
+
+Welcome to "Bold Perspective" – a platform designed to empower individuals to share their thoughts, ideas, and experiences through articles. This README provides an overview of the website and its features to help you get started.
+
+features:
+Explore a diverse range of articles covering various topics, including personal growth, lifestyle, technology, and more.
+It also allows you to register ur complains.
+
+CHUSHEEL SRINIVAS
+21EEB0B45
+NIT WARANAGAL
